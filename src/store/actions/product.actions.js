@@ -2,6 +2,9 @@ import * as keys from '../keys/product.key';
 import ApiService from '../../services/ApiService';
 import _ from 'lodash';
 import moment from 'moment';
+const randomInt = require('random-int');
+
+
 import {Metrics} from '../../themes';
 /*let obj = {
     ...item,

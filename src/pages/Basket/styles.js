@@ -69,6 +69,13 @@ const styles = StyleSheet.create({
         fontSize: Fonts.size.regular,
     },
 
+  textQuantity: {
+        fontFamily: Fonts.type.base,
+        color: Colors.BUTTON_ACTIVE_COLOR,
+        fontSize: Fonts.size.base,
+        marginTop:Metrics.HEIGHT*0.01
+    },
+
     textDiscountRate: {
         fontFamily: Fonts.type.thin,
         fontSize: Fonts.size.small,

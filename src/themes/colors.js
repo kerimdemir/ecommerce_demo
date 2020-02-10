@@ -24,6 +24,10 @@ const colors = {
   VIEW_GRADIENT1: 'white',
   VIEW_GRADIENT2: 'black',
   black: '#000000',
+
+  black: '#000000',
+
+
 };
 export default colors;
 
