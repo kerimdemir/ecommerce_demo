@@ -99,7 +99,7 @@ const Basket = ({baskets: {basket}, themes: {Colors}, deleteProduct, deleteAllPr
                 </Animatable.View>
             }
 
-            <BottomDrawer startUp={false} containerHeight={200} offset={120}>
+            <BottomDrawer startUp={false} containerHeight={300} offset={150}>
                 <View style={{
                     alignItems: 'center',
                     justifyContent: 'center',
