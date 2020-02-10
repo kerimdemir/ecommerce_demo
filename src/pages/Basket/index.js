@@ -64,7 +64,7 @@ const Basket = ({baskets: {basket}, themes: {Colors}, deleteProduct, deleteAllPr
                             }}>
                                 <TouchableOpacity style={{borderRadius: 4,backgroundColor: 'darkred' ,padding: 10}}
                                                   onPress={() => item.quantity==1?null:decrementQuantity(item)}><Text style={{color:'white'}}>-</Text></TouchableOpacity>
-                                <Text>  {item.quantity}  </Text>
+                                <Text style={{color: Colors.TEMPLATE_TEXT}}>  {item.quantity}  </Text>
                                 <TouchableOpacity style={{borderRadius: 4,backgroundColor: 'darkgreen', padding: 10}}
                                                   onPress={() => incrementQuantity(item)}><Text style={{color:'white'}}>+</Text></TouchableOpacity>
 

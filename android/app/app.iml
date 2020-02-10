@@ -142,5 +142,10 @@
     <orderEntry type="module" module-name="react-native-reanimated" />
     <orderEntry type="module" module-name="react-native-screens" />
     <orderEntry type="module" module-name="react-native-vector-icons" />
+    <orderEntry type="module" module-name="@react-native-community_async-storage" />
+    <orderEntry type="module" module-name="react-native-gesture-handler" />
+    <orderEntry type="module" module-name="react-native-reanimated" />
+    <orderEntry type="module" module-name="react-native-screens" />
+    <orderEntry type="module" module-name="react-native-vector-icons" />
   </component>
 </module>
