@@ -5,7 +5,7 @@ import randomInt from 'random-int';
 let basketData = [];
 
 export const addProduct = (item) => dispatch => {
-    //let obj={...item,r_id:randomInt(100,1000)};
+
     if (_.some(basketData, item)) {
 
         basketData=basketData.map(basket => basket.id === item.id ? {...basket, quantity : basket.quantity+1} : basket)
@@ -23,7 +23,7 @@ export const addProduct = (item) => dispatch => {
 
 
 export const incrementQuantity = (item) => dispatch => {
-    //let obj={...item,r_id:randomInt(100,1000)};
+
     if (_.some(basketData, item)) {
 
         basketData=basketData.map(basket => basket.id === item.id ? {...basket, quantity : basket.quantity+1} : basket)
@@ -39,7 +39,7 @@ export const incrementQuantity = (item) => dispatch => {
 };
 
 export const decrementQuantity = (item) => dispatch => {
-    //let obj={...item,r_id:randomInt(100,1000)};
+
     if (_.some(basketData, item)) {
 
         basketData=basketData.map(basket => basket.id === item.id ? {...basket, quantity : basket.quantity-1} : basket)
