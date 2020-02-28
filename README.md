@@ -1,11 +1,30 @@
 # ecommerce_demo
 
 
+Derlenmiş çıktı (ipa, apk ) buildOutputs anadizindeki buildOutputs klasörünün içindedir.
 
-## How to use
-- Clone
-- Run `npm install` in the terminal
-- Run on IOS or Android projects in emulator
+
+### Running the project
+
+Clone this repository :
+
+```
+git clone https://github.com/kerimdemir/react-native-boilerplate.git
+```
+
+Install packages :
+
+```
+npm install
+```
+
+When installation is complete, run with version of your choice :
+
+```bash
+react-native run-ios
+# or
+react-native run-android
+```
 
 ## Dependencies
 - react
@@ -21,7 +40,6 @@
 - lodash
 
 
-Derlenmiş çıktı (ipa, apk ) buildOutputs anadizindeki buildOutputs klasörünün içindedir.
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
