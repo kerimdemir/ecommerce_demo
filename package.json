@@ -12,7 +12,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",
     "axios": "^0.19.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "native-base": "^2.13.8",
     "random-int": "^2.0.1",
