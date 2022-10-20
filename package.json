@@ -27,7 +27,7 @@
     "react-native-masonry": "^0.5.0-alpha.5",
     "react-native-masonry-list": "^2.16.1",
     "react-native-numeric-input": "^1.8.3",
-    "react-native-reanimated": "^1.7.0",
+    "react-native-reanimated": "^2.10.0",
     "react-native-router-flux": "^4.2.0",
     "react-native-screens": "^2.0.0-beta.2",
     "react-native-snackbar-component": "^1.1.2",
